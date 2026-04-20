@@ -11,9 +11,13 @@ pip install adafruit-circuitpython-ads1x15
 
 BEFORE RUNNING
 
-sudo raspi-config   # enable I2C
-i2cdetect -y 1      # should show 0x48
-pip3 install adafruit-circuitpython-ads1x15
+1. sudo raspi-config   # enable I2C
+2. i2cdetect -y 1      # should show 0x48
+#==== TO CHECK I2C ===IT SHOULD SHOW 48
+pi@raspberrypi:~ $ i2cdetect -y 1
+
+
+3. pip3 install adafruit-circuitpython-ads1x15
 
 
 HOW TO RUN
