@@ -11,7 +11,7 @@ from adafruit_ads1x15.analog_in import AnalogIn
 i2c = busio.I2C(board.SCL, board.SDA)
 ads = ADS.ADS1115(i2c)
 ads.gain = 2
-chan = AnalogIn(ads, ADS.P0)
+chan = AnalogIn(ads, 0)
 
 CAL_FILE = "ph_calibration.json"
 

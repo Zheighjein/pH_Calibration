@@ -6,6 +6,9 @@ Analog to Digital using ADS1115 board
 
 Install Dependency
 
+
+python3 -m venv venv
+source venv/bin/activate
 pip install adafruit-circuitpython-ads1x15
 
 
